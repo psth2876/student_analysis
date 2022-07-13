@@ -501,8 +501,7 @@ that 17, 18 and 16 respectively.
 In this box plot above, the absence for lower quartile is 0, upper
 quartile is 10, median ranges from 0 to 10 and maximum is 70 above.
 
-![Chart, histogram Description automatically
-generated](media/image9.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178698268-3aea56ca-abbe-4a0e-978f-d29ee98aeade.png)
 
 *Figure: Display boxplots of G3*
 
@@ -512,7 +511,7 @@ lower quartile, median are 12.5 to 15, 7.5 to 10 and 10 to 12.5.
 
 ### 4.2 Code to display bar graph of passed students. 
 
-![Chart Description automatically generated](media/image10.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178698413-6aecbb61-6137-419b-81d2-7afb496b42b1.png)
 
 > *Figure: Bar graph of passed students school wise.*
 
@@ -524,7 +523,7 @@ difference in students’ data available of both schools.
 
 ### 4.3 Code to show students failed in final term. 
 
-![Chart Description automatically generated](media/image11.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178698520-cba6e203-4fb6-41a8-97c5-6c6e5d29b99f.png)
 
 > *Figure: Bar graph of students failed according to weekly study
 > time*
