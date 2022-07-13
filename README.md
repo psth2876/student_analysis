@@ -7,7 +7,7 @@ patterns for every field. Here, we are using Python programming language
 to analyze various information and gain results from the processed data.
 Datasets regarding student performance in secondary education of two
 Portuguese schools namely Gabriel Pereira and Mourinho da Silveira has
-been given. The main objective of the coursework is to prepare data for
+been given. The main objective is to prepare data for
 further analysis and visualization study.
 
 ## 1\. Data Understanding 
