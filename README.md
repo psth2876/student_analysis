@@ -1,6 +1,4 @@
-# student_analysis
-
-# Part 1: Analysis of Student Performance Dataset 
+# Student Performance Dataset analysis using Python 
 
 Data analytics refers to the process of extracting useful insights from
 datasets to draw conclusions about the information they contain. It
@@ -380,7 +378,9 @@ features.
 </tbody>
 </table>
 
-![image](https://user-images.githubusercontent.com/23220212/178695454-87d504c1-9165-42de-8fa6-e75d38aa1757.png)
+![image](https://user-images.githubusercontent.com/23220212/178697034-7deaeddd-bd7c-4454-8dbc-1492c46a1e75.png)
+
+*Figure 1: Comparison of total students on school as per gender*
 
 **From the above comparison figure, we can clearly state that the total
 number of students in GP and MS schools have a huge difference which can
@@ -396,7 +396,7 @@ further analysis.**
 
 ### Data Preparation 
 
-For part 1, Student dataset is stored in a csv file with different
+Student dataset is stored in a csv file with different
 attributes. Python has many libraries so we can use some of them for
 data preparation. Pandas is an inbuilt library which is used to read csv
 file as required and load int into a data frame. Further we can use more
@@ -458,7 +458,7 @@ representations for same variables for better understanding of dataset.
 
 ![image](https://user-images.githubusercontent.com/23220212/178696088-af8cc896-3e7a-4114-9c63-25b191a8e052.png)
 
-> *Figure 38: Histogram to display students age variables*
+> *Figure: Histogram to display students age variables*
 
 In this histogram we are displaying total number of students with their
 age variables starting from 15 to 22. We are creating bins according to
@@ -468,7 +468,7 @@ very few students are of age 20 to 22.
 
 ![image](https://user-images.githubusercontent.com/23220212/178696190-05ad22de-07a9-49fa-888c-fa60c54c3d96.png)
 
-> *Figure 39: Histogram to display student absences in days.*
+> *Figure: Histogram to display student absences in days.*
 
 In this histogram we are plotting to display number of students and
 their absences in days. It has minimum values ranging from 0 to maximum
@@ -476,10 +476,9 @@ value 75 absences which is used to create bins range. Majority of the
 students have few absences up to 5 days while some have absences ranging
 from 5 days to 25 days.
 
-![Chart, histogram Description automatically
-generated](media/image6.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178697787-79ef0ec6-da40-45dc-8a9d-9f32eb1fde06.png)
 
-> *Figure 40: Histogram to display students grades of G3*
+> *Figure: Histogram to display students grades of G3*
 
 In this histogram we are displaying total number of students with their
 final grades G3 which represents the Result of students either passed or
@@ -487,19 +486,17 @@ not. Large number of students have grades ranging from 8 to 16 which
 concludes many students are passed. Almost 35 to 38 students have lowest
 level of grades i.e. 0 to 1.
 
-![Chart, box and whisker chart Description automatically
-generated](media/image7.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178697867-b115092e-3623-4740-b6d9-bcc8dcdc9597.png)
 
-*Figure 41: Displaying boxplots for age*
+*Figure: Displaying boxplots for age*
 
 From above box plot we can describe the lower age is 15 while the higher
 age is 22. For median, upper quartile and lower quartile we can observe
 that 17, 18 and 16 respectively.
 
-![Chart, box and whisker chart Description automatically
-generated](media/image8.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178698032-62bbda4f-d37b-4729-87e6-e324d472abc8.png)
 
-*Figure 42: Displaying boxplot for absences*
+*Figure: Displaying boxplot for absences*
 
 In this box plot above, the absence for lower quartile is 0, upper
 quartile is 10, median ranges from 0 to 10 and maximum is 70 above.
@@ -507,7 +504,7 @@ quartile is 10, median ranges from 0 to 10 and maximum is 70 above.
 ![Chart, histogram Description automatically
 generated](media/image9.jpg)
 
-*Figure 43: Display boxplots of G3*
+*Figure: Display boxplots of G3*
 
 From above box plot we can describe the minimum and maximum value of
 grade is 0 and 20 respectively while the ranges for upper quartile,
@@ -517,7 +514,7 @@ lower quartile, median are 12.5 to 15, 7.5 to 10 and 10 to 12.5.
 
 ![Chart Description automatically generated](media/image10.jpg)
 
-> *Figure 44: Bar graph of passed students school wise.*
+> *Figure: Bar graph of passed students school wise.*
 
 In this bar graph we are displaying total number of passed students
 based on schools. By observing the chart, we can say large number of
@@ -529,7 +526,7 @@ difference in students’ data available of both schools.
 
 ![Chart Description automatically generated](media/image11.jpg)
 
-> *Figure 45: Bar graph of students failed according to weekly study
+> *Figure: Bar graph of students failed according to weekly study
 > time*
 
 In this bar graph we are displaying total number of failed students with
@@ -543,7 +540,7 @@ students are getting fail if they study 5 to more than 10 hours weekly.
 ![Chart, pie chart Description automatically
 generated](media/image12.jpg)
 
-*Figure 46: Pie chart to show student’s parent cohabitation status*
+*Figure: Pie chart to show student’s parent cohabitation status*
 
 In the above pie chart, the pink color represents Parents cohabitation
 status as Together while green color as Apart. It shows that almost 90 %
@@ -555,7 +552,7 @@ findings further analysis in the report.
 ![Chart, pie chart Description automatically
 generated](media/image13.jpg)
 
-*Figure 47: Pie chart of student's address*
+*Figure: Pie chart of student's address*
 
 In the above pie chart, the dark red color represents Student address in
 Rural area while dark yellow color as Urban area. It shows that almost
@@ -574,7 +571,7 @@ is huge difference in data of school of GP and MS.
 ![Chart, bar chart Description automatically
 generated](media/image15.jpg)
 
-*Figure 48: Total number of Students result as per gender.*
+*Figure: Total number of Students result as per gender.*
 
 The above bar graph represents number of students passed or fail on G3
 i.e., Final Grade grouped by sex. This graph clearly shows that total
@@ -587,7 +584,7 @@ be considered for analysis.
 ![Chart, bar chart Description automatically
 generated](media/image16.jpg)
 
-> *Figure 49: Number of Students weekly study time with respect to
+> *Figure: Number of Students weekly study time with respect to
 > failures according to gender .*
 
 The above graph represents that number of male students who study less
@@ -600,7 +597,7 @@ focus on their study time.
 ![Chart, bar chart Description automatically
 generated](media/image17.jpg)
 
-*Figure 50: Number of students and their father occupation according to
+*Figure: Number of students and their father occupation according to
 Result.*
 
 The above graph represents the total number of students and their
@@ -613,7 +610,7 @@ that passing percentage is higher in services and other job.
 ![Chart, bar chart Description automatically
 generated](media/image18.jpg)
 
-> *Figure 51: Number of students and their mother occupation according
+> *Figure: Number of students and their mother occupation according
 > to Result.*
 
 The above graph represents the total number of students and their
@@ -626,7 +623,7 @@ that passing percentage is higher in services and other job.
 ![Chart, bar chart Description automatically
 generated](media/image19.jpg)
 
-> *Figure 52: Students final grade result according to father and mother
+> *Figure: Students final grade result according to father and mother
 > education.*
 
 The above bar plots represent father and mother education details and
@@ -641,7 +638,7 @@ final as they cannot give time or either they might be doing jobs.
 ![Chart, bar chart Description automatically
 generated](media/image20.jpg)
 
-*Figure 53:Number of students according to Mothers job and family
+*Figure:Number of students according to Mothers job and family
 relationship.*
 
 The above graph represents total number of student relationship with
@@ -654,7 +651,7 @@ family.
 
 ![Chart Description automatically generated](media/image21.jpg)
 
-*Figure 54: Number of students according to father’s job and family
+*Figure: Number of students according to father’s job and family
 relationship.*
 
 The above graph represents total number of student relationship with
@@ -668,7 +665,7 @@ relationship with family.
 ![Chart, box and whisker chart Description automatically
 generated](media/image22.jpg)
 
-*Figure 55: Boxplot for analysis of Final grade of students compared to
+*Figure: Boxplot for analysis of Final grade of students compared to
 internet.*
 
 The above figure represents final grade of students with respect to the
@@ -682,7 +679,7 @@ student with no internet.
 
 ![Chart Description automatically generated](media/image23.jpg)
 
-*Figure 56: Attendance of students comapring result with absences as per
+*Figure: Attendance of students comapring result with absences as per
 gender in violin plot*
 
 In the above Violin plot, blue color refers to the rate of passed
@@ -699,7 +696,7 @@ grades in exam.
 ![A picture containing table Description automatically
 generated](media/image24.jpg)
 
-*Figure 57: Swarm plot to sgow the ECA of students as genderwise*
+*Figure: Swarm plot to sgow the ECA of students as genderwise*
 
 In the swarm plot above, the blue filled circle represents the failed
 students and the pink filled circle represents the students who
