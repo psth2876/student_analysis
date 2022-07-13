@@ -19,364 +19,6 @@ Silveira. Some other data attributes are provided which includes student
 grades (in mathematics), demographic, social and school related
 features.
 
-<table>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p>S.N.</p>
-</blockquote></th>
-<th>Attribute</th>
-<th><blockquote>
-<p>Description</p>
-</blockquote></th>
-<th>Attribute Type</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>1</p>
-</blockquote></td>
-<td>School</td>
-<td><blockquote>
-<p>It has two categorical values (“GP” - Gabriel Pereira and “MS” - Mousinho da Silveira).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>2</p>
-</blockquote></td>
-<td>Sex</td>
-<td><blockquote>
-<p>It contains two categorical values (“M” as Male and “F” as Female).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>3</p>
-</blockquote></td>
-<td>Age</td>
-<td><blockquote>
-<p>It has multiple numerical integer values.</p>
-</blockquote></td>
-<td>discrete</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>4</p>
-</blockquote></td>
-<td>Address</td>
-<td><blockquote>
-<p>It represents student’s home address type and has two categorical values (“U” – urban or “R” – rural).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>5</p>
-</blockquote></td>
-<td>Famsize</td>
-<td><blockquote>
-<p>It represents family size of students and has two categorical values (“LE3” – less or equal to 3 or “GT3” – greater than 3).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>6</p>
-</blockquote></td>
-<td>Pstatus</td>
-<td><blockquote>
-<p>It represents parent’s cohabitation status and has two categorical values (“T” – living together or “A” – Apart).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>7</p>
-</blockquote></td>
-<td>Medu</td>
-<td><blockquote>
-<p>It represents mother’s education and contains multiple categorical values (“higher education”, ”primary education”, ”secondary school”, ”5<sup>th</sup> to 9<sup>th</sup> grade” , “none”).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>8</p>
-</blockquote></td>
-<td>Fedu</td>
-<td><blockquote>
-<p>It represents father’s education and contains multiple categorical values (“higher education”, ”primary education”, ”secondary school”, ”5<sup>th</sup> to 9<sup>th</sup> grade” , “none”).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>9</p>
-</blockquote></td>
-<td>Mjob</td>
-<td><blockquote>
-<p>It represents mother’s job and contains multiple categorical values (“at home”, ”health”, ”other”, ”services” , “teacher”).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p>10</p>
-</blockquote></th>
-<th>Fjob</th>
-<th><blockquote>
-<p>It represents father’s job and contains multiple categorical values (“at home”, ”health”, ”other”, ”services” , “teacher”).</p>
-</blockquote></th>
-<th>categorical</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>11</p>
-</blockquote></td>
-<td>Reason</td>
-<td><blockquote>
-<p>It represents reason behind choosing the school and has multiple categorical values (“at home”, ”health”, ”other”, ”services” , “teacher”).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>12</p>
-</blockquote></td>
-<td>Guardian</td>
-<td><blockquote>
-<p>It represents who is responsible for student’s guardian and has multiple categorical values (“Father”, ”Mother”, ”Other”).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>13</p>
-</blockquote></td>
-<td>Traveltime</td>
-<td><blockquote>
-<p>It shows the travelling time for students from home to school and has multiple categorical values</p>
-<p>(“15 to 30 min”, ”&lt;15 min”,” 30 min to 1 hour”, “&gt;1 hour”).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>14</p>
-</blockquote></td>
-<td>Studytime</td>
-<td><blockquote>
-<p>It shows the weekly study time for students and has multiple categorical values (“ 5 to 10 hours”, ” &lt;2 hours”,” &gt;10 hours”,” 2 to 5 hours”).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>15</p>
-</blockquote></td>
-<td>Failures</td>
-<td><blockquote>
-<p>It shows number of past class failures for students and has multiple numerical values (“0,1,2,3”).</p>
-</blockquote></td>
-<td>discrete</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>16</p>
-</blockquote></td>
-<td>Schoolsup</td>
-<td><blockquote>
-<p>It shows extra educational support of students and has multiple categorical values (“yes ”, “no”).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>17</p>
-</blockquote></td>
-<td>Famsup</td>
-<td><blockquote>
-<p>It refers to the family supported education provided to students. It has two variables “yes” or “no”.</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>18</p>
-</blockquote></td>
-<td>Paid</td>
-<td><blockquote>
-<p>It refers to details if student had paid for extra classes, the value is either “yes” or “no”.</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>19</p>
-</blockquote></td>
-<td>Activities</td>
-<td><blockquote>
-<p>It indicates if the student has extracurricular activities in school. The value is either “yes” or “no”.</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>20</p>
-</blockquote></td>
-<td>Nursery</td>
-<td><blockquote>
-<p>It represents if the students have attended nursery school or not. It has two variables either “yes” or “no”.</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>21</p>
-</blockquote></td>
-<td>Higher</td>
-<td><blockquote>
-<p>It represents if the students want to take higher education in the future or not. It has values either “yes” or “no”.</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>22</p>
-</blockquote></td>
-<td>Internet</td>
-<td><blockquote>
-<p>It represents either student have internet access at home. The value is “yes” or “no”.</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>23</p>
-</blockquote></td>
-<td>Romantic</td>
-<td><blockquote>
-<p>It has information about the student romantic relationship. The value available is “yes” or “no”.</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>24</p>
-</blockquote></td>
-<td>Famrel</td>
-<td><blockquote>
-<p>It has multiple categorical values ( “2 to 5 hours”, ”5 to 10 hours”, ”&lt;2 hours”, ”&gt;10 hours” ).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>25</p>
-</blockquote></td>
-<td>Freetime</td>
-<td><blockquote>
-<p>It has multiple categorical values ( “2 to 5 hours”, ”5 to 10 hours”, ”&lt;2 hours”, ”&gt;10 hours” ).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>26</p>
-</blockquote></td>
-<td>Goout</td>
-<td><blockquote>
-<p>It has multiple categorical values ( “low”,</p>
-<p>”medium”, ”very low”, ”high”, ”very high” ).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>27</p>
-</blockquote></td>
-<td>Dalc</td>
-<td><blockquote>
-<p>It has multiple categorical values ( “low”,</p>
-<p>”medium”, ”very low”, ”high”, ”very high” ).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>28</p>
-</blockquote></td>
-<td>Walc</td>
-<td><blockquote>
-<p>It has multiple categorical values ( “low”,</p>
-<p>”medium”, ”very low”, ”high”, ”very high” ).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>29</p>
-</blockquote></td>
-<td>Health</td>
-<td><blockquote>
-<p>It has multiple categorical values ( “good”,</p>
-<p>”excellent”, ”very bad”, ”bad”, ”very good” ).</p>
-</blockquote></td>
-<td>categorical</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>30</p>
-</blockquote></td>
-<td>Absences</td>
-<td><blockquote>
-<p>It has numerical values ranging from (0 to 75) and represents number of school absences.</p>
-</blockquote></td>
-<td>discrete</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>31</p>
-</blockquote></td>
-<td>G1</td>
-<td><blockquote>
-<p>It represents first period grades which has numerical values ranging from (0 to 20).</p>
-</blockquote></td>
-<td>discrete</td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>32</p>
-</blockquote></td>
-<td>G2</td>
-<td><blockquote>
-<p>It represents second period grades which has numerical values ranging from (0 to 20).</p>
-</blockquote></td>
-<td>discrete</td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>33</p>
-</blockquote></td>
-<td>G3</td>
-<td><blockquote>
-<p>It has numerical values ranging from (0 to 20) and represents final grade.</p>
-</blockquote></td>
-<td>discrete</td>
-</tr>
-</tbody>
-</table>
 
 ![image](https://user-images.githubusercontent.com/23220212/178697034-7deaeddd-bd7c-4454-8dbc-1492c46a1e75.png)
 
@@ -536,8 +178,7 @@ students are getting fail if they study 5 to more than 10 hours weekly.
 
 ## 5.Further Analysis 
 
-![Chart, pie chart Description automatically
-generated](media/image12.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178705857-eaa2c318-25a2-49c3-82d7-eba64d4b385d.png)
 
 *Figure: Pie chart to show student’s parent cohabitation status*
 
@@ -548,8 +189,7 @@ parents are living apart from each other. This cohabitation status of
 parents might have effect on student daily life which we will be
 findings further analysis in the report.
 
-![Chart, pie chart Description automatically
-generated](media/image13.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178705698-d905ed65-e87e-492a-a981-1c95ecb09c8d.png)
 
 *Figure: Pie chart of student's address*
 
@@ -558,8 +198,9 @@ Rural area while dark yellow color as Urban area. It shows that almost
 78 % of student are living in urban area while Remaining 22% student are
 living in rural areas.
 
-![Chart, pie chart Description automatically
-generated](media/image14.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178705631-a0e51f8b-2ecd-4486-ae5c-e74cff17b8c1.png)
+
+*Figure: Pie chart of student's grouped by schools*
 
 In the above pie chart, the pink color represents total number of
 students in MS school while green color represents total number of
@@ -567,8 +208,7 @@ students in GP school. It shows that almost 88 % of the students are in
 GP school while remaining 12 % are from MS school. This shows that there
 is huge difference in data of school of GP and MS.
 
-![Chart, bar chart Description automatically
-generated](media/image15.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178705481-8650e168-22fa-49b5-aa95-5ff37e46a8a5.png)
 
 *Figure: Total number of Students result as per gender.*
 
@@ -580,8 +220,7 @@ are comparatively less in number than female students. The total number
 of students according to gender was 47 % male and 53 % female which can
 be considered for analysis.
 
-![Chart, bar chart Description automatically
-generated](media/image16.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178705396-fc16edb9-bfb7-42c1-84ea-fa3f6a802be3.png)
 
 > *Figure: Number of Students weekly study time with respect to
 > failures according to gender .*
@@ -593,8 +232,7 @@ study for 10 hours weekly. We can conclude that male is not able to
 study for good number of hours every week while female are not able to
 focus on their study time.
 
-![Chart, bar chart Description automatically
-generated](media/image17.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178705146-7b1e8b86-6423-4a98-8e9d-6c4a21457c79.png)
 
 *Figure: Number of students and their father occupation according to
 Result.*
@@ -606,8 +244,7 @@ many of them are passed. and fathers’ job in health, at home or as a
 teacher have low number of failed students. Also, we can also conclude
 that passing percentage is higher in services and other job.
 
-![Chart, bar chart Description automatically
-generated](media/image18.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178705048-c85767e7-d21a-46b9-8b4d-0a0cd22964f8.png)
 
 > *Figure: Number of students and their mother occupation according
 > to Result.*
