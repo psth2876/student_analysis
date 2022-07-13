@@ -380,7 +380,7 @@ features.
 
 ![image](https://user-images.githubusercontent.com/23220212/178697034-7deaeddd-bd7c-4454-8dbc-1492c46a1e75.png)
 
-*Figure 1: Comparison of total students on school as per gender*
+*Figure: Comparison of total students on school as per gender*
 
 **From the above comparison figure, we can clearly state that the total
 number of students in GP and MS schools have a huge difference which can
@@ -388,7 +388,7 @@ make a bias decision while performing further analysis.**
 
 ![image](https://user-images.githubusercontent.com/23220212/178695740-00509b04-0f7e-4322-9946-7c1275795be0.png)
 
-*Figure 2: Students according to gender in dataset*
+*Figure: Students according to gender in dataset*
 
 **The number of female students is greater than male students in both
 schools which can be considered normal as its ratio is considerable for
@@ -450,7 +450,7 @@ representations for same variables for better understanding of dataset.
 
 ![image](https://user-images.githubusercontent.com/23220212/178695975-6a2a510d-37ea-4299-a64f-b00a8ad74223.png)
 
-*Figure 37: Heatmap displaying correlation between different variables.*
+*Figure: Heatmap displaying correlation between different variables.*
 
 ## 4\. Data Exploration and Visualization 
 
@@ -619,8 +619,7 @@ many of them are passed. and mother’s job in health, at home or as a
 teacher have low number of failed students. Also, we can also conclude
 that passing percentage is higher in services and other job.
 
-![Chart, bar chart Description automatically
-generated](media/image19.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178699395-ec8ac5b6-5cff-4396-9b0b-da3b68da14ba.png)
 
 > *Figure: Students final grade result according to father and mother
 > education.*
@@ -634,8 +633,7 @@ them and help optimize their time in studying. While parents having
 primary education to secondary education have failed children in their
 final as they cannot give time or either they might be doing jobs.
 
-![Chart, bar chart Description automatically
-generated](media/image20.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178699259-290f6118-643f-4f62-964a-4279e9b111e0.png)
 
 *Figure:Number of students according to Mothers job and family
 relationship.*
@@ -648,7 +646,7 @@ job sectors. Students mother job in other and services have larger
 number of students with very good, excellent, and good relationship with
 family.
 
-![Chart Description automatically generated](media/image21.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178699137-f78f2b7d-6d23-4add-b3f6-b817dc55a026.png)
 
 *Figure: Number of students according to father’s job and family
 relationship.*
@@ -661,8 +659,7 @@ fields. Students father job in other and services have comparatively
 large number of students with very good, good, and excellent
 relationship with family.
 
-![Chart, box and whisker chart Description automatically
-generated](media/image22.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178699053-6f76fc38-f812-4ed1-984c-99862b7900ae.png)
 
 *Figure: Boxplot for analysis of Final grade of students compared to
 internet.*
@@ -676,7 +673,7 @@ quartile, lower quartile and median all are significantly higher than
 green plots. Also, student with internet have higher maximum value than
 student with no internet.
 
-![Chart Description automatically generated](media/image23.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178698945-456d7031-d97f-4d45-8e2d-51b70e14272a.png)
 
 *Figure: Attendance of students comapring result with absences as per
 gender in violin plot*
@@ -692,8 +689,7 @@ have passed the exam. From above we can conclude that both male and
 female students having high absence days are also able to get good
 grades in exam.
 
-![A picture containing table Description automatically
-generated](media/image24.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178698872-687272a0-de2d-4db3-bfba-7ed70bf8cb4d.png)
 
 *Figure: Swarm plot to sgow the ECA of students as genderwise*
 
