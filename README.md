@@ -380,17 +380,13 @@ features.
 </tbody>
 </table>
 
-![Chart, bar chart Description automatically
-generated](media/image1.jpg)
-
-> *Figure 1: Comparison of total students on schools as per gender*
+![image](https://user-images.githubusercontent.com/23220212/178695454-87d504c1-9165-42de-8fa6-e75d38aa1757.png)
 
 **From the above comparison figure, we can clearly state that the total
 number of students in GP and MS schools have a huge difference which can
 make a bias decision while performing further analysis.**
 
-![A picture containing text Description automatically
-generated](media/image2.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178695740-00509b04-0f7e-4322-9946-7c1275795be0.png)
 
 *Figure 2: Students according to gender in dataset*
 
@@ -452,8 +448,7 @@ representations for same variables for better understanding of dataset.
 
 ### 3.2 Correlation between different variables using Heatmap 
 
-![Graphical user interface Description automatically
-generated](media/image3.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178695975-6a2a510d-37ea-4299-a64f-b00a8ad74223.png)
 
 *Figure 37: Heatmap displaying correlation between different variables.*
 
@@ -461,8 +456,7 @@ generated](media/image3.jpg)
 
 ### 4.1 Code to show histogram and box plots of different variables 
 
-![Chart, histogram Description automatically
-generated](media/image4.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178696088-af8cc896-3e7a-4114-9c63-25b191a8e052.png)
 
 > *Figure 38: Histogram to display students age variables*
 
@@ -472,8 +466,7 @@ the range defined from minimum age value to maximum age values. Majority
 of the students are of age 15 to 19 while maximum age is 16 to 17 and
 very few students are of age 20 to 22.
 
-![Graphical user interface, application Description automatically
-generated](media/image5.jpg)
+![image](https://user-images.githubusercontent.com/23220212/178696190-05ad22de-07a9-49fa-888c-fa60c54c3d96.png)
 
 > *Figure 39: Histogram to display student absences in days.*
 
